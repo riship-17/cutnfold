@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colours: warm cream paper, olive ink, a little brown and sand */
+  --color-cream: #fff9ed;
+  --color-panel: #f6f1e4;
+  --color-sand: #f1e1bf;
+  --color-olive: #4f5b2a;
+  --color-olive-dark: #384315;
+  --color-brown: #6b4a12;
+  --color-ink: #1d1c14;
+  --color-muted: #5b5646;
+  --color-line: #ddd6c4;
+
+  --font-serif: "EB Garamond", Georgia, serif;
+  --font-sans: "Work Sans", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+  }
+}
+
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
