@@ -19,7 +19,7 @@ export default function Supply() {
             Bakes your guests will <em className="font-normal">remember</em>.
           </>
         }
-        lead={`We supply cafés, restaurants, hotels, caterers and cloud kitchens with fresh, consistent bakery products, made with the same standards we teach. Delivery across ${site.deliveryAreas}.`}
+        lead={`We supply cafés, restaurants, hotels, caterers and cloud kitchens with fresh, consistent bakery products, made with the same standards we teach. We bake in New Delhi and work with kitchens across India.`}
       >
         <div className="mt-8 flex flex-wrap items-center gap-6">
           <Button to="/contact">Request a Sample Box</Button>

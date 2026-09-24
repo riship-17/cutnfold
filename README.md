@@ -1,7 +1,7 @@
 # Cut N Fold — website
 
-A React site for Cut N Fold: food, café and bakery consultancy, and B2B bakery supply
-in New Delhi.
+A React site for Cut N Fold: food, café and bakery consultancy, and B2B bakery supply.
+Based in New Delhi, working pan India.
 
 Built with React 19, Vite and Tailwind CSS v4. React Router handles the pages.
 
@@ -31,7 +31,6 @@ Search the project for `TODO` and `XX`. The open items are:
 | --- | --- |
 | `site.phone`, `site.whatsapp` | Real phone and WhatsApp link |
 | `site.instagram` | Instagram profile link |
-| `site.deliveryAreas` | Confirm the areas you deliver to |
 | `stats` | Real numbers for outlets, B2B partners and products (19+ years is already correct) |
 | `testimonial` | A real quote from a real client, with their permission — credited by role and area, not by business name |
 | `founder` | Founder name and a short, true bio. No founder photo goes on this site |

@@ -44,9 +44,9 @@ export default function About() {
                 honest to look at the numbers.
               </p>
               <p>
-                We work mostly in and around {site.city}, and we plan for Indian kitchens:
-                local suppliers, local teams, Delhi summers and the way our guests
-                actually eat.
+                We are based in {site.city} and work with kitchens across India, and we
+                plan for Indian conditions: local suppliers, local teams, our summers and
+                the way our guests actually eat.
               </p>
             </div>
           </div>

@@ -10,7 +10,7 @@ export default function Footer() {
           <p className="eyebrow mt-2 text-brown">{site.tagline}</p>
           <p className="mt-4 max-w-sm text-sm leading-6 text-muted">
             We help food businesses plan, open and run better — and we bake breads, cakes
-            and everyday counter items for cafés, hotels and restaurants across {site.city}.
+            and everyday counter items for cafés, hotels and restaurants across India.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export default function Footer() {
         <span>
           © {site.year} {site.name}. All rights reserved.
         </span>
-        <span>{site.city} · 19+ years in hospitality</span>
+        <span>Based in {site.city} · Working pan India</span>
       </div>
     </footer>
   );

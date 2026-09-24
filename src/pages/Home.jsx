@@ -16,7 +16,7 @@ export default function Home() {
       <Section className="pb-10 md:pb-14">
         <div className="grid items-center gap-10 lg:grid-cols-12">
           <div className="lg:col-span-7">
-            <Eyebrow>Food · Café · Bakery Consultancy — {site.city}</Eyebrow>
+            <Eyebrow>Food · Café · Bakery Consultancy — Pan India</Eyebrow>
             <h1 className="mt-5 font-serif text-5xl leading-[1.05] text-olive md:text-7xl">
               We help food businesses <em className="font-normal">rise</em>.
             </h1>
@@ -50,8 +50,9 @@ export default function Home() {
         <div className="mx-auto max-w-6xl">
           <p className="max-w-3xl font-serif text-2xl leading-[1.5] text-olive md:text-3xl">
             Cut N Fold is a hospitality consultancy and B2B bakery partner based in{" "}
-            {site.city}. We plan, build and fix food businesses, and we supply bakes that
-            other cafés, hotels and restaurants are proud to serve.
+            {site.city}, working with food businesses across India. We plan, build and fix
+            kitchens, and we supply bakes that other cafés, hotels and restaurants are
+            proud to serve.
           </p>
         </div>
       </section>

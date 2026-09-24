@@ -12,9 +12,9 @@ export const site = {
   phone: "+91 XXXXX XXXXX", // TODO: add your real phone / WhatsApp number
   whatsapp: "https://wa.me/91XXXXXXXXXX", // TODO: add your real WhatsApp link
   instagram: "https://instagram.com/", // TODO: add your Instagram link
-  address: "New Delhi – 110019, India",
+  address: "New Delhi, India",
   replyTime: "24 hours",
-  deliveryAreas: "Delhi NCR — South Delhi, Central Delhi, Gurugram and Noida", // TODO: confirm areas
+  serviceAreas: "Pan India — based in New Delhi, working with kitchens across the country",
   year: 2026,
 };
 
@@ -69,7 +69,7 @@ export const process = ["Listen", "Plan", "Build", "Train", "Grow"];
 export const testimonial = {
   quote:
     "Add a real line from a real client here — what you did for them and what changed.",
-  credit: "Café owner, South Delhi",
+  credit: "Café owner, Bengaluru",
 };
 
 export const values = [
@@ -139,7 +139,7 @@ export const services = [
   },
   {
     title: "Pre-opening support",
-    text: "Hiring, trial runs, daily checklists and a plan for launch week.",
+    text: "Trial runs, daily checklists and a plan for launch week.",
   },
   {
     title: "Staff training",
@@ -172,7 +172,7 @@ export const engagements = [
   {
     title: "Full project",
     time: "3 to 9 months",
-    text: "From an empty shop to opening day — concept, menu, kitchen, hiring, training and launch.",
+    text: "From an empty shop to opening day — concept, menu, kitchen, training and launch.",
   },
   {
     title: "One service",
@@ -282,7 +282,7 @@ export const orderSteps = [
 export const projects = [
   {
     type: "Café and bakery",
-    place: "South Delhi",
+    place: "New Delhi",
     year: "20XX",
     work: "What you did — for example concept, menu designing and kitchen layout.",
     result: "One line on what changed for them.",
@@ -290,7 +290,7 @@ export const projects = [
   },
   {
     type: "Cloud kitchen",
-    place: "Gurugram",
+    place: "Mumbai",
     year: "20XX",
     work: "What you did — for example recipes, costing and staff training.",
     result: "One line on what changed for them.",
@@ -298,7 +298,7 @@ export const projects = [
   },
   {
     type: "Bakery",
-    place: "Noida",
+    place: "Bengaluru",
     year: "20XX",
     work: "What you did — for example a full bakery setup and daily supply.",
     result: "One line on what changed for them.",
@@ -306,7 +306,7 @@ export const projects = [
   },
   {
     type: "Restaurant",
-    place: "Central Delhi",
+    place: "Jaipur",
     year: "20XX",
     work: "What you did — for example restaurant designing and a menu rework.",
     result: "One line on what changed for them.",

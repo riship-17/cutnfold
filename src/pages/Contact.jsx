@@ -85,8 +85,8 @@ export default function Contact() {
                 <p className="mt-1 text-muted">{site.address}</p>
               </div>
               <div className="border-t border-line pt-4">
-                <Eyebrow>Delivery areas</Eyebrow>
-                <p className="mt-1 text-muted">{site.deliveryAreas}</p>
+                <Eyebrow>Where we work</Eyebrow>
+                <p className="mt-1 text-muted">{site.serviceAreas}</p>
               </div>
               <div className="border-y border-line py-4">
                 <Eyebrow>Hours</Eyebrow>
