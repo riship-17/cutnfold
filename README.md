@@ -31,10 +31,8 @@ Search the project for `TODO` and `XX`. The open items are:
 | --- | --- |
 | `site.phone`, `site.whatsapp` | Real phone and WhatsApp link |
 | `site.instagram` | Instagram profile link |
-| `stats` | Real numbers for outlets, B2B partners and products (19+ years is already correct) |
-| `testimonial` | A real quote from a real client, with their permission — credited by role and area, not by business name |
-| `founder` | Founder name and a short, true bio. No founder photo goes on this site |
-| `projects` | 4 to 6 real projects — type of place, area, what you did, the result. Do not name the businesses |
+| `founder` | The short bio under the "Founder" heading. No name and no photo go on this site |
+| `projects` | Only needed when the Our Work page is switched back on — see below |
 | `products` | Check the list matches what you actually bake, and add minimum order if you have one |
 | `services` | Confirm what you can help with on FSSAI and licences |
 
@@ -45,6 +43,13 @@ Search the project for `TODO` and `XX`. The open items are:
 2. **Do not name the restaurants, hotels or cafés he has worked with** — not in his
    background on the About page, not on the Work page, and not in testimonials. Describe
    each one by type and area instead, for example "Café and bakery — South Delhi".
+
+## The Our Work page is switched off
+
+The "Our Work" link is out of the navigation and `/work` redirects to the home page. The
+page itself still exists at `src/pages/Work.jsx` with its sample projects in `projects`.
+To bring it back: add `{ to: "/work", label: "Our Work" }` to `nav` in `src/data/site.js`,
+and restore the real route in `src/App.jsx` (the commented line shows where).
 
 ## Photos
 

@@ -7,7 +7,7 @@ import {
   Section,
   Title,
 } from "../components/UI";
-import { expertise, photos, process, site, stats, testimonial, whyUs } from "../data/site";
+import { expertise, photos, process, site, stats, whyUs } from "../data/site";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Section className="pb-10 md:pb-14">
         <div className="grid items-center gap-10 lg:grid-cols-12">
           <div className="lg:col-span-7">
-            <Eyebrow>Food · Café · Bakery Consultancy — Pan India</Eyebrow>
+            <Eyebrow>Food · Café · Bakery Consultancy · B2B — Pan India</Eyebrow>
             <h1 className="mt-5 font-serif text-5xl leading-[1.05] text-olive md:text-7xl">
               We help food businesses <em className="font-normal">rise</em>.
             </h1>
@@ -165,16 +165,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Testimonial */}
-      <Section className="text-center">
-        <div className="mx-auto max-w-3xl">
-          <blockquote className="font-serif text-2xl leading-relaxed text-olive italic md:text-3xl">
-            “{testimonial.quote}”
-          </blockquote>
-          <p className="eyebrow mt-8 text-muted">{testimonial.credit}</p>
-        </div>
-      </Section>
 
       <ClosingCTA email={site.email} />
     </>

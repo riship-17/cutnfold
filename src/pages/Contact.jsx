@@ -11,6 +11,7 @@ const interests = [
 const empty = {
   name: "",
   business: "",
+  location: "",
   phone: "",
   email: "",
   interest: "consultancy",
@@ -32,6 +33,7 @@ export default function Contact() {
     const body = [
       `Name: ${form.name}`,
       `Business: ${form.business}`,
+      `Business location: ${form.location}`,
       `Phone: ${form.phone}`,
       `Email: ${form.email}`,
       `Interested in: ${label}`,
@@ -144,6 +146,19 @@ export default function Contact() {
                   onChange={update("business")}
                   className={field}
                   placeholder="Café, bakery or company name"
+                />
+              </div>
+
+              <div className="flex flex-col gap-2">
+                <label htmlFor="location" className="eyebrow text-muted">
+                  Business location
+                </label>
+                <input
+                  id="location"
+                  value={form.location}
+                  onChange={update("location")}
+                  className={field}
+                  placeholder="City and area, for example Andheri West, Mumbai"
                 />
               </div>
 

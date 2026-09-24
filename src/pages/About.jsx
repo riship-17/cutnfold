@@ -23,9 +23,6 @@ export default function About() {
               alt="Baker kneading dough early in the morning"
               ratio="aspect-[3/4]"
             />
-            <p className="mt-3 text-xs text-muted">
-              Our kitchen in {site.city} — where most of our recipes start.
-            </p>
           </div>
 
           <div className="md:col-span-7">
@@ -103,8 +100,7 @@ export default function About() {
       <section className="w-full border-t border-line bg-panel px-5 py-16 md:px-10 md:py-20">
         <div className="mx-auto max-w-3xl">
           <Eyebrow>Who you will work with</Eyebrow>
-          <Title className="mt-2">{founder.name}</Title>
-          <p className="eyebrow mt-2 text-muted">{founder.role}</p>
+          <Title className="mt-2">{founder.heading}</Title>
           <div className="mt-6 space-y-4 text-lg leading-8 text-muted">
             {founder.bio.map((line) => (
               <p key={line}>{line}</p>

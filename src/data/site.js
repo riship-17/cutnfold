@@ -22,7 +22,6 @@ export const nav = [
   { to: "/about", label: "About" },
   { to: "/consultancy", label: "Consultancy" },
   { to: "/supply", label: "B2B Supply" },
-  { to: "/work", label: "Our Work" },
   { to: "/contact", label: "Contact" },
 ];
 
@@ -35,12 +34,11 @@ export const photos = {
   table: "https://lh3.googleusercontent.com/aida-public/AB6AXuBkEIuKe0vaHVEAt4lZlVVqzWspXrZHiqdvv0Er_v-ETmrqibhv_nHWl4cjAJGKw8jP-EQnh7xx-5fQ4_C_7q2UAsAsCQl9LHuyCJk6MS4pBh9R0DeeIHv7-2I2z3yvxc0DpqkTlMQHyjxLNPN8rm4uPMpQEjYWFQhaCwcfsBtMyhogEiRb60PfXavEa5jUnuELJBtq04vkBfL-51Zv7cJEGSr5i8cdYlP6-70M07A",
 };
 
-// TODO: replace the "XX" numbers below with your real, checked numbers.
 export const stats = [
   { value: "19+", label: "Years in hospitality" },
-  { value: "XX", label: "Outlets opened or fixed" },
-  { value: "XX", label: "B2B partners supplied" },
-  { value: "XX", label: "Products in our range" },
+  { value: "15+", label: "Outlets opened or fixed" },
+  { value: "20+", label: "B2B partners supplied" },
+  { value: "100+", label: "Products in our range" },
 ];
 
 export const whyUs = [
@@ -64,14 +62,6 @@ export const whyUs = [
 
 export const process = ["Listen", "Plan", "Build", "Train", "Grow"];
 
-// TODO: replace with a real line from a real client, with their permission.
-// Keep the credit to a role and an area — we do not name the businesses we work with.
-export const testimonial = {
-  quote:
-    "Add a real line from a real client here — what you did for them and what changed.",
-  credit: "Café owner, Bengaluru",
-};
-
 export const values = [
   {
     title: "Honest advice",
@@ -93,8 +83,7 @@ export const values = [
 
 // No founder photo on this site, and we do not name the places he has worked.
 export const founder = {
-  name: "Founder name", // TODO: add the name you want shown, or leave it out
-  role: "Founder",
+  heading: "Founder",
   bio: [
     "Our founder has spent more than 19 years in hotel kitchens, bakeries and cafés across India — on the bread bench, on the pass and in the office where the costing gets done.",
     "That time was spent making bread at 4 in the morning, designing menus, training teams and learning what makes a guest come back.",
@@ -105,9 +94,8 @@ export const founder = {
 // What we are known for — shown as a short line on the home and consultancy pages.
 export const expertise = [
   "Menu designing",
-  "Restaurant designing",
+  "Kitchen designing",
   "B2B bakery supply",
-  "Kitchen planning",
   "Recipe development",
   "Staff training",
 ];
@@ -130,11 +118,7 @@ export const services = [
     text: "Tested recipes written down with exact weights, so every batch tastes the same.",
   },
   {
-    title: "Restaurant designing",
-    text: "The space your guests see — seating plan, counter and display, lighting, signage and the small details that make a café feel finished.",
-  },
-  {
-    title: "Kitchen layout & equipment",
+    title: "Kitchen designing & equipment",
     text: "Work flow planning, equipment list and help finding the right vendors at the right price.",
   },
   {
@@ -152,10 +136,6 @@ export const services = [
   {
     title: "Audit & turnaround",
     text: "For running kitchens: we find where money and time are leaking, and fix it.",
-  },
-  {
-    title: "Licence guidance",
-    text: "Help with FSSAI and other paperwork you need before you open.", // TODO: confirm scope
   },
 ];
 

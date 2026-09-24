@@ -1,12 +1,11 @@
 import { useEffect } from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Consultancy from "./pages/Consultancy";
 import Supply from "./pages/Supply";
-import Work from "./pages/Work";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -29,7 +28,9 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/consultancy" element={<Consultancy />} />
           <Route path="/supply" element={<Supply />} />
-          <Route path="/work" element={<Work />} />
+          {/* Our Work is switched off for now. The page lives in
+              src/pages/Work.jsx — put the route back when real projects are ready. */}
+          <Route path="/work" element={<Navigate to="/" replace />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
